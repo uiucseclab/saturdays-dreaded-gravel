@@ -1,4 +1,4 @@
-#! /usr/local/bin/python
+#! /usr/bin/python
 import sys
 if len(sys.argv) < 2:
 	exit(1)
