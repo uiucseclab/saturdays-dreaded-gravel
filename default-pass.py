@@ -1,11 +1,12 @@
 from bs4 import BeautifulSoup
-import urllib.request as url
-import urllib.parse
+import urllib
+import urllib2
 
 creds = {};
+output = open('./default-creds.csv', 'w')
 
 # Get list of router manufacturers
-manufct_list_source = url.urlopen('http://www.routerpasswords.com').read()
+manufct_list_source = urllib.urlopen('http://www.routerpasswords.com').read()
 manufct_list_soup = BeautifulSoup(manufct_list_source, "html.parser")
 for child in manufct_list_soup.find_all('select')[0].contents:
     if child.name == 'option':
@@ -22,9 +23,9 @@ for manufct in creds:
     print('Scanning %d / %d: %s' % (count, len(creds), manufct) )
 
     form_data = {'findpass': 1, 'router': manufct, 'findpassword': 'Find Password'}
-    cred_list_request = url.Request('http://www.routerpasswords.com',
-            urllib.parse.urlencode(form_data).encode('ascii'))
-    cred_list_source = url.urlopen(cred_list_request).read()
+    data = urllib.urlencode(form_data)
+    cred_list_req = urllib2.Request('http://www.routerpasswords.com', data)
+    cred_list_source = urllib2.urlopen(cred_list_req).read()
     cred_list_soup = BeautifulSoup(cred_list_source, "html.parser")
 
     # Loop through table results and store username/password combinations
@@ -34,7 +35,8 @@ for manufct in creds:
             password = row.find_all('td')[4].string
             if (username, password) not in creds[manufct]:
                 creds[manufct].append((username, password))
+                output.write('%s,%s,%s\n' % (manufct, username, password))
+                output.flush()
 
-print(creds)
+output.close()
 
-#TODO: Print to file or some shit
