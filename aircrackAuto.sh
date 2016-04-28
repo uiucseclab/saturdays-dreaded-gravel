@@ -8,7 +8,11 @@ iwconfig 2>/dev/null | grep -o '^[a-z0-9]\+'
 read monInterface
 echo "We gucci?(y/n)"
 read gucci
-sudo /bin/bash airodump1.sh $monInterface
-airodump-ng -c 6 --bssid 00:0C:E6:A2:01:C0 -w dump $monInterface
-sudo service networking start
-sudo service network-manager start
+gnome-terminal -e "sudo /bin/bash -c './airodump1.sh $monInterface; exec /bin/bash -i'"
+#echo "Which router are we cracking?"
+#print the ESSIDs here, by selecting router we can grab the info we need from CSV and put into the airodump2 command
+#read router
+gnome-terminal -e "sudo /bin/bash -c './airodump2.sh $monInterface; exec /bin/bash -i'" #will add two more inputs to script for channel and BSSID
+echo "Press Enter when done"
+read -s
+sudo /bin/bash ./reset.sh $monInterface $interface
