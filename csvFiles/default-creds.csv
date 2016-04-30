@@ -1,0 +1,1155 @@
+Datacom
+Datacom,n/a,letmein
+Perle
+Perle,admin,superuser
+Flowpoint
+Flowpoint,admin,admin
+Flowpoint,n/a,password
+cyberguard
+cyberguard,cgadmin,cgadmin
+ALCATEL
+ALCATEL,mtcl,(none)
+ALCATEL,kermit,kermit
+ALCATEL,dhs3mt,dhs3mt
+ALCATEL,at4400,at4400
+ALCATEL,mtch,mtch
+ALCATEL,mtcl,mtcl
+ALCATEL,root,letacla
+ALCATEL,dhs3pms,dhs3pms
+ALCATEL,adfexc,adfexc
+ALCATEL,client,client
+ALCATEL,install,llatsni
+ALCATEL,halt,tlah
+ALCATEL,n/a,1064
+ALCATEL,admin,switch
+ALCATEL,diag,switch
+ALCATEL,root,permit
+ALCATEL,(none),admin
+ALCATEL,ftp_inst,pbxk1064
+ALCATEL,ftp_admi,kilo1987
+ALCATEL,ftp_oper,help1954
+ALCATEL,ftp_nmc,tuxalize
+VxWorks
+VxWorks,admin,admin
+VxWorks,guest,guest
+3COM
+3COM,debug,synnet
+3COM,tech,tech
+3COM,adm,(none)
+3COM,None,ANYCOM
+3COM,None,ILMI
+3COM,admin,(none)
+3COM,n/a,PASSWORD
+3COM,adminttd,adminttd
+3COM,admin,comcomcom
+3COM,admin,admin
+3COM,tech,(none)
+3COM,admin,synnet
+3COM,root,(none)
+3COM,monitor,monitor
+3COM,manager,manager
+3COM,Root,(none)
+3COM,n/a,admin
+3COM,n/a,(none)
+3COM,(none),admin
+3COM,admin,password
+3COM,User,Password
+3COM,Administrator,admin
+3COM,operator,(none)
+3COM,security,security
+3COM,3comcso,RIP000
+3COM,Administrator,(none)
+3COM,recovery,recovery
+3COM,(none),1234admin
+3COM,Type User: FORCE,(none)
+NAI
+NAI,admin,admin123
+NAI,GlobalAdmin,GlobalAdmin
+DD-WRT
+DD-WRT,root,admin
+Develcon
+Develcon,n/a,BRIDGE
+Develcon,n/a,password
+NGSec
+NGSec,admin,(none)
+NGSec,admin,asd
+Huawei
+Huawei,TMAR#HWMT8007079,(none)
+Huawei,admin,admin
+Huawei,user,user
+NetGear
+NetGear,(none),1234
+NetGear,admin,password
+NetGear,comcast,1234
+NetGear,admin,1234
+NetGear,admin,admin
+NetGear,super,5777364
+NetGear,superman,21241036
+NetGear,(none),private
+NetGear,admin,(none)
+NetGear,n/a,admin
+NetGear,n/a,password
+NetGear,n/a,(none)
+Mitel
+Mitel,system,password
+Mitel,n/a,(none)
+iPSTAR
+iPSTAR,admin,operator
+Conexant
+Conexant,n/a,epicrouter
+Conexant,n/a,admin
+Conexant,Administrator,admin
+Spike
+Spike,enable,(none)
+Verilink
+Verilink,(none),(none)
+ihoi
+ihoi,Administrator,pilou
+Tiara
+Tiara,tiara,tiaranet
+Vodafone
+Vodafone,root,123456
+ALAXALA
+ALAXALA,operator,(none)
+ZTE 
+ZTE ,admin,admin
+Allied Telesyn
+Allied Telesyn,n/a,admin
+Allied Telesyn,manager,admin
+Allied Telesyn,root,(none)
+Allied Telesyn,manager,manager
+Allied Telesyn,manager,friend
+Allied Telesyn,Manager,friend
+Lockdown Networks
+Lockdown Networks,setup,changeme(exclamation)
+AOC
+AOC,n/a,admin
+OpenConnect
+OpenConnect,admin,OCS
+OpenConnect,adminstat,OCS
+OpenConnect,adminview,OCS
+OpenConnect,adminuser,OCS
+OpenConnect,helpdesk,OCS
+Yakumo
+Yakumo,admin,admin
+Osicom
+Osicom,Manager,Manager
+Osicom,sysadm,sysadm
+Osicom,write,private
+Osicom,debug,d.e.b.u.g
+Osicom,echo,echo
+Osicom,guest,guest
+Osicom,1500,and 2000 Series"
+EverFocus
+EverFocus,admin,admin
+EverFocus,supervisor,supervisor
+EverFocus,operator,operator
+Asante
+Asante,IntraSwitch,Asante
+Asante,IntraStack,Asante
+Asante,superuser,(none)
+Asante,admin,asante
+Senao
+Senao,admin,(none)
+maxdata
+maxdata,n/a,(none)
+Inteno
+Inteno,admin,giraff
+Dictaphone
+Dictaphone,PBX,PBX
+Dictaphone,NETWORK,NETWORK
+Dictaphone,NETOP,(none)
+iblitzz
+iblitzz,admin,admin
+olitec
+olitec,admin,adslolitec
+Teledat
+Teledat,admin,1234
+Arescom
+Arescom,n/a,atc123
+Arescom,None,None
+ARtem
+ARtem,(none),admin
+RM
+RM,setup,changeme
+RM,teacher,password
+RM,temp1,password
+RM,admin,rmnetlm
+RM,admin2,changeme
+RM,adminstrator,changeme
+RM,deskalt,password
+RM,deskman,changeme
+RM,desknorm,password
+RM,deskres,password
+RM,guest,(none)
+RM,replicator,replicator
+RM,RMUser1,password
+RM,topicalt,password
+RM,topicnorm,password
+RM,topicres,password
+McData
+McData,Administrator,password
+NetGenesis
+NetGenesis,naadmin,naadmin
+giga
+giga,Administrator,admin
+NOKIA
+NOKIA,(none),9999
+NOKIA,m1122,m1122
+NOKIA,telecom,telecom
+OMRON
+OMRON,n/a,(none)
+Sonic-X
+Sonic-X,root,admin
+Polycom
+Polycom,Polycom,SpIp
+Polycom,(none),admin
+Polycom,(none),(none)
+Sorenson
+Sorenson,(none),admin
+US Robotics
+US Robotics,(none),12345
+US Robotics,root,admin
+US Robotics,Any,12345
+US Robotics,support,support
+Snapgear
+Snapgear,1.79 +,Multi
+Cyclades
+Cyclades,super,surt
+Cyclades,root,tslinux
+Cabletron
+Cabletron,netman,(none)
+Ramp Networks
+Ramp Networks,wradmin,trancell
+Origo
+Origo,admin,kont2004
+Brother
+Brother,(none),access
+Brother,n/a,access
+Konica Minolta
+Konica Minolta,(none),1234
+Konica Minolta,(none),(none)
+Konica Minolta,n/a,00000000
+SAGEM
+SAGEM,admin,epicrouter
+SAGEM,root,1234
+SAGEM,admin,admin
+SAGEM,admin,None
+microRouter
+microRouter,n/a,letmein
+Sphairon
+Sphairon,admin,xad$l#12
+ADC Kentrox
+ADC Kentrox,n/a,secret
+Breezecom
+Breezecom,n/a,Master
+Breezecom,n/a,laflaf
+Breezecom,n/a,Helpdesk
+Breezecom,n/a,Super
+inchon
+inchon,admin,admin
+Foundry Networks
+Foundry Networks,admin,admin
+Andover Controls
+Andover Controls,acc,acc
+Scientific Atlanta
+Scientific Atlanta,admin,w2402
+JDS Microprocessing
+JDS Microprocessing,hydrasna,(none)
+OKI
+OKI,root,the 6 last digit of the MAC adress
+Extreme Networks
+Extreme Networks,admin,(none)
+Network Appliance
+Network Appliance,admin,NetCache
+Acconet
+Acconet,Admin,admin
+CISCO
+CISCO,admin,diamond
+CISCO,cmaker,cmaker
+CISCO,admin,changeme
+CISCO,netrangr,attack
+CISCO,bbsd-client,changeme2
+CISCO,bbsd-client,NULL
+CISCO,Administrator,changeme
+CISCO,root,attack
+CISCO,sa,(none)
+CISCO,(none),public/private/secret
+CISCO,(none),cisco
+CISCO,admin,admin
+CISCO,admin,default
+CISCO,Cisco,Cisco
+CISCO,guest,(none)
+CISCO,admin,cisco
+CISCO,(none),Cisco
+CISCO,(none),_Cisco
+CISCO,root,blender
+CISCO,hsa,hsadb
+CISCO,wlse,wlsedb
+CISCO,root,Cisco
+CISCO,admin,system
+CISCO,user,tivonpw
+CISCO,Administrator,admin
+CISCO,(blank),(blank)
+CISCO,cisco,cisco
+Virgin Media
+Virgin Media,admin,changeme
+TRENDnet
+TRENDnet,admin,admin
+TRENDnet,admin,(blank)
+Sybase
+Sybase,jagadmin,(none)
+TVT System
+TVT System,craft,(none)
+TVT System,(none),enter
+PentaSafe
+PentaSafe,PSEAdmin,$secure$
+Sweex
+Sweex,Sweex,Mysweex
+V-Tech
+V-Tech,VTech,VTech
+JAHT
+JAHT,admin,epicrouter
+intex
+intex,n/a,(none)
+Dallas Semiconductors
+Dallas Semiconductors,root,tini
+Aethra
+Aethra,admin,password
+Visual Networks
+Visual Networks,admin,visual
+Zonet
+Zonet,guest,guest
+APC
+APC,n/a,backdoor
+APC,n/a,TENmanUFactOryPOWER
+APC,device,device
+APC,apc,apc
+TRICHEER
+TRICHEER,None,password
+E-Tech
+E-Tech,admin,epicrouter
+E-Tech,(none),admin
+Blue Coat Systems
+Blue Coat Systems,admin,articon
+Fujitsu Siemens
+Fujitsu Siemens,(none),connect
+Microplex
+Microplex,root,root
+CTC Union
+CTC Union,root,root
+Sun
+Sun,admin,admin
+HP
+HP,admin,isee
+HP,admin,admin
+HP,MGR,HPP187
+HP,MGR,HPP189
+HP,MGR,HPP196
+HP,MGR,INTX3
+HP,MGR,ITF3000
+HP,MGR,NETBASE
+HP,MGR,REGO
+HP,MGR,RJE
+HP,MGR,CONV
+HP,OPERATOR,SYS
+HP,OPERATOR,DISC
+HP,OPERATOR,SYSTEM
+HP,OPERATOR,SUPPORT
+HP,OPERATOR,COGNOS
+HP,PCUSER,SYS
+HP,RSBCMON,SYS
+HP,SPOOLMAN,HPOFFICE
+HP,WP,HPOFFICE
+HP,ADVMAIL,HPOFFICE DATA
+HP,ADVMAIL,HP
+HP,FIELD,SUPPORT
+HP,FIELD,MGR
+HP,FIELD,SERVICE
+HP,FIELD,MANAGER
+HP,FIELD,HPP187 SYS
+HP,FIELD,LOTUS
+HP,FIELD,HPWORD PUB
+HP,FIELD,HPONLY
+HP,HELLO,MANAGER.SYS
+HP,HELLO,MGR.SYS
+HP,HELLO,FIELD.SUPPORT
+HP,HELLO,OP.OPERATOR
+HP,MAIL,MAIL
+HP,MAIL,REMOTE
+HP,MAIL,TELESUP
+HP,MAIL,HPOFFICE
+HP,MAIL,MPE
+HP,MANAGER,TCH
+HP,MANAGER,SYS
+HP,MANAGER,SECURITY
+HP,MANAGER,ITF3000
+HP,MANAGER,HPOFFICE
+HP,MANAGER,COGNOS
+HP,MANAGER,TELESUP
+HP,MGR,SYS
+HP,MGR,CAROLIAN
+HP,MGR,VESOFT
+HP,MGR,XLSERVER
+HP,MGR,SECURITY
+HP,MGR,TELESUP
+HP,MGR,HPDESK
+HP,MGR,CCC
+HP,MGR,CNAS
+HP,MGR,WORD
+HP,MGR,COGNOS
+HP,MGR,ROBELLE
+HP,MGR,HPOFFICE
+HP,MGR,HPONLY
+HP,(none),(none)
+HP,Anonymous,(none)
+HP,admin,hp.com
+HP,admin,(none)
+D-LINK
+D-LINK,admin,admin
+D-LINK,D-Link,D-Link
+D-LINK,(none),admin
+D-LINK,admin,(none)
+D-LINK,(none),public
+D-LINK,user,(none)
+D-LINK,n/a,admin
+D-LINK,User,(none)
+D-LINK,(none),private
+D-LINK,admin,password
+D-LINK,user,user
+D-LINK,Admin,(none)
+Checkpoint
+Checkpoint,admin,admin
+Dynalink
+Dynalink,admin,admin
+IronPort
+IronPort,admin,ironport
+3M
+3M,volition,volition
+Orange
+Orange,admin,admin
+Linksys
+Linksys,n/a,(none)
+Linksys,n/a,admin
+Linksys,Administrator,admin
+Linksys,(none),admin
+Linksys,admin,(none)
+Linksys,admin,admin
+Linksys,comcast,1234
+Draytek
+Draytek,admin,admin
+Draytek,admin,(none)
+Draytek,(blank),(blank)
+Draytek,draytek,1234
+Meridian
+Meridian,service,smile
+adtran
+adtran,n/a,adtran
+adtran,n/a,(none)
+adtran,n/a,Password
+adtran,n/a,PASSWORD
+adtran,n/a,ADTRAN
+Unisys
+Unisys,NAU,NAU
+Unisys,ADMINISTRATOR,ADMINISTRATOR
+Unisys,HTTP,HTTP
+BMC
+BMC,patrol,patrol
+SmartSwitch
+SmartSwitch,admin,(none)
+Cable And Wireless
+Cable And Wireless,admin,1234
+Xylan
+Xylan,admin,switch
+Xylan,diag,switch
+mro software
+mro software,SYSADM,sysadm
+Milan
+Milan,root,root
+Samsung
+Samsung,public,public
+Samsung,n/a,(none)
+Samsung,admin,password
+creative
+creative,n/a,(none)
+TANDBERG
+TANDBERG,(none),TANDBERG
+Netscreen
+Netscreen,netscreen,netscreen
+Netscreen,Administrator,(none)
+Netscreen,admin,(none)
+Netscreen,operator,(none)
+accton t-online
+accton t-online,(none),0
+Wyse
+Wyse,root,wyse
+Wyse,VNC,winterm
+Wyse,(none),Fireport
+Wyse,root,(none)
+Wyse,rapport,r@p8p0r+
+Wyse,n/a,password
+Intershop
+Intershop,operator,$chwarzepumpe
+longshine
+longshine,admin,0
+Sky
+Sky,admin,sky
+Celerity
+Celerity,mediator,mediator
+Celerity,root,Mau'dib
+IMAI
+IMAI,n/a,(none)
+Micronet
+Micronet,root,default
+Micronet,mac,(none)
+Micronet,admin,epicrouter
+Micronet,admin,1234
+Fortinet
+Fortinet,admin,(none)
+Mutare Software
+Mutare Software,(none),admin
+Ascom
+Ascom,(none),3ascotel
+Netport
+Netport,setup,setup
+Telewell
+Telewell,admin,password
+Tellabs
+Tellabs,tellabs,tellabs#1
+Tellabs,root,admin_1
+Planet
+Planet,(none),default
+Planet,admin,epicrouter
+Planet,admin,1234
+Planet,admin,admin
+Netopia
+Netopia,netopia,netopia
+Netopia,admin,(none)
+Netopia,n/a,(none)
+Netopia,admin,noway
+Netopia,(none),(none)
+Westell
+Westell,admin,(none)
+Westell,admin,password
+Westell,CSG,SESAME
+Westell,admin,sysAdmin
+Team Xodus
+Team Xodus,xbox,xbox
+Netcomm
+Netcomm,admin,password
+Netcomm,admin,admin
+Digicom
+Digicom,admin,michelangelo
+Digicom,user,password
+Efficient Networks
+Efficient Networks,n/a,4getme2
+Efficient Networks,login,admin
+Efficient Networks,(none),hs7mwxkk
+KTI
+KTI,superuser,123456
+KTI,admin,123456
+KTI,admin,123
+Sigma
+Sigma,admin,admin
+Microsoft
+Microsoft,(none),admin
+Marconi
+Marconi,ami,(none)
+Terayon
+Terayon,(none),(none)
+Lantronics
+Lantronics,n/a,access
+Lantronics,n/a,system
+Broadlogic
+Broadlogic,webadmin,webadmin
+Broadlogic,admin,admin
+Broadlogic,installer,installer
+Gericom
+Gericom,Administrator,(none)
+SonicWALL
+SonicWALL,admin,password
+Actiontec
+Actiontec,(none),(none)
+Actiontec,admin,password
+Actiontec,admin,(none)
+Motorola
+Motorola,cablecom,router
+Motorola,admin,motorola
+Motorola,n/a,(none)
+Motorola,(blank),(blank)
+Motorola,router,router
+Loopcom
+Loopcom,admin,epicrouter
+asmack
+asmack,admin,epicrouter
+comtrend
+comtrend,admin,(none)
+comtrend,admin,admin
+Psion Teklogix
+Psion Teklogix,support,h179350
+Solution 6
+Solution 6,aaa,often blank
+Niksun
+Niksun,vcr,NetVCR
+ASUS
+ASUS,admin,admin
+ASUS,n/a,admin
+Network Associates
+Network Associates,e500,e500changeme
+Network Associates,e250,e250changeme
+SOPHIA (Schweiz) AG
+SOPHIA (Schweiz) AG,admin,Protector
+SOPHIA (Schweiz) AG,root,root
+Ericsson
+Ericsson,netman,netman
+Ericsson,public,(none)
+Ericsson,(none),help
+Ericsson,n/a,(none)
+Symbol
+Symbol,n/a,Symbol
+Axis
+Axis,root,pass
+Axis,n/a,(none)
+Pentagram
+Pentagram,admin,password
+Xyplex
+Xyplex,n/a,system
+Xyplex,n/a,access
+Xyplex,n/a,(none)
+AMBIT
+AMBIT,root,(none)
+AMBIT,root,root
+AMBIT,user,user - (admin:cableroot)
+Intermec
+Intermec,intermec,intermec
+2Wire
+2Wire,2Wire,None
+2Wire,(none),Wireless
+Compaq
+Compaq,administrator,administrator
+Compaq,anonymous,(none)
+Compaq,user,user
+Compaq,operator,operator
+Compaq,user,public
+Compaq,PFCUser,240653C9467E45
+LANCOM
+LANCOM,n/a,(none)
+Nimble
+Nimble,n/a,xdfk9874t3
+Xavi
+Xavi,n/a,(none)
+Intel/Shiva
+Intel/Shiva,admin,hello
+NEC
+NEC,n/a,(none)
+medion
+medion,n/a,medion
+Xerox
+Xerox,admin,2222
+Xerox,admin,admin
+Xerox,admin,(none)
+Xerox,admin,22222
+Xerox,n/a,admin
+Xerox,admin,1111
+us21100060
+us21100060,n/a,(none)
+NRG or RICOH
+NRG or RICOH,(none),password
+canyon
+canyon,Administrator,admin
+VASCO
+VASCO,admin,(none)
+Freetech
+Freetech,n/a,Posterie
+Prestigio
+Prestigio,n/a,(none)
+SMC
+SMC,admin,(none)
+SMC,admin,admin
+SMC,(none),smcadmin
+SMC,n/a,smcadmin
+SMC,Administrator,smcadmin
+SMC,admin,barricade
+SMC,smc,smcadmin
+SMC,admin,smcadmin
+SMC,cusadmin,highspeed
+Onixon
+Onixon,root,root
+ovislink
+ovislink,root,(none)
+CNET
+CNET,admin,epicrouter
+Deerfield
+Deerfield,MDaemon,MServer
+Alteon
+Alteon,admin,(none)
+Alteon,admin,admin
+Alteon,admin,linga
+Research
+Research,n/a,Col2ogro2
+COM3
+COM3,admin,admin
+E-Con
+E-Con,admin,epicrouter
+ZOOM
+ZOOM,admin,zoomadsl
+mediatrix 2102
+mediatrix 2102,admin,1234
+JDE
+JDE,PRODDTA,PRODDTA
+Telco Systems
+Telco Systems,telco,telco
+Bausch Datacom
+Bausch Datacom,admin,epicrouter
+Phoenix v1.14
+Phoenix v1.14,Administrator,admin
+Accelerated Networks
+Accelerated Networks,sysadm,anicust
+Kalatel
+Kalatel,n/a,3477
+Kalatel,n/a,8111
+Funk Software
+Funk Software,admin,radius
+Uniden
+Uniden,admin,admin
+CipherTrust
+CipherTrust,admin,password
+Pacific Micro Data
+Pacific Micro Data,pmd,(none)
+ACCTON
+ACCTON,none,0
+JD Edwards
+JD Edwards,JDE,JDE
+Aceex
+Aceex,admin,(none)
+Intel
+Intel,root,(none)
+Intel,NICONEX,NICONEX
+Intel,setup,setup
+Intel,(none),Intel
+Intel,intel,intel
+Intel,Guest,(none)
+Intel,admin,(none)
+topsec
+topsec,superman,talent
+Nullsoft
+Nullsoft,admin,changeme
+Telindus
+Telindus,n/a,(none)
+Telindus,admin,admin
+Davox
+Davox,root,davox
+Davox,admin,admin
+Davox,davox,davox
+Davox,sa,(none)
+Logitech
+Logitech,(none),0000
+RoamAbout
+RoamAbout,admin,password
+xd
+xd,xd,xd
+System/32
+System/32,install,secret
+Minolta QMS
+Minolta QMS,operator,(none)
+Minolta QMS,admin,(none)
+Allied
+Allied,manager,friend
+ALLNET
+ALLNET,admin,admin
+ALLNET,none,admin
+Oracle
+Oracle,system/manager,sys/change_on_install
+Omnitronix
+Omnitronix,(none),SUPER
+Omnitronix,(none),SMDR
+AXUS
+AXUS,n/a,00000000
+BUFFALO
+BUFFALO,root,n/a
+BUFFALO,root,(none)
+Exabyte
+Exabyte,anonymous,Exabyte
+T-Comfort
+T-Comfort,Administrator,(none)
+F5
+F5,root,default
+Ricoh
+Ricoh,sysadmin,password
+Ricoh,(none),password
+Ricoh,n/a,password
+Ricoh,admin,(none)
+Ricoh,admin,password
+Belkin
+Belkin,(none),MiniAP
+Belkin,n/a,admin
+Belkin,(blank),(blank)
+Belkin,admin,(blank)
+olitec (Trendchip)
+olitec (Trendchip),admin,admin
+Wanadoo
+Wanadoo,admin,admin
+Enterasys
+Enterasys,admin,netadmin
+Enterasys,(none),netadmin
+Enterasys,admin,(none)
+Enterasys,tiger,tiger123
+U.S. Robotics
+U.S. Robotics,root,12345
+U.S. Robotics,admin,admin
+U.S. Robotics,cablemodem,robotics
+U.S. Robotics,admin,(blank) - Default IP is 192.168.123.254
+AVAYA
+AVAYA,root,ROOT500
+AVAYA,n/a,admin
+AVAYA,craft,(none)
+AVAYA,root,root
+AVAYA,diag,danger
+AVAYA,manuf,xxyyzz
+AVAYA,craft,crftpw
+AVAYA,root,cms500
+AVAYA,dadmin,dadmin01
+Advantek Networks
+Advantek Networks,admin,(none)
+aztech
+aztech,admin,admin
+MERCURY
+MERCURY,Administrator,admin
+Siips
+Siips,Administrator,ganteng
+Demarc
+Demarc,admin,my_DEMARC
+Zebra
+Zebra,admin,1234
+Aspect
+Aspect,customer,none
+Aspect,DTA,TJM
+Pirelli
+Pirelli,admin,mu
+Pirelli,admin,microbusiness
+Pirelli,user,password
+Pirelli,admin,smallbusiness
+Tandem
+Tandem,super.super,(none)
+Tandem,super.super,master
+Infosmart
+Infosmart,admin,0000
+Panasonic
+Panasonic,n/a,(none)
+Panasonic,admin,1234
+Speedcom
+Speedcom,admin,conexant
+Edimax
+Edimax,admin,1234
+Edimax,guest,(none)
+Edimax,admin,123
+Edimax,admin,epicrouter
+Verifone
+Verifone,(none),166816
+Openwave
+Openwave,sys,uplink
+Openwave,cac_admin,cacadmin
+IBM
+IBM,n/a,ascend
+IBM,n/a,(none)
+IBM,n/a,admin
+IBM,storwatch,specialist
+IBM,n/a,R1QTPS
+IBM,vt100,public
+IBM,admin,password
+IBM,admin,(none)
+IBM,superadmin,secret
+IBM,hscroot,abc123
+IBM,admin,secure
+IBM,root,(none)
+IBM,USERID,PASSW0RD
+IBM,Administrator,admin
+Efficient
+Efficient,n/a,admin
+Efficient,login,admin
+Efficient,login,password
+silex technology
+silex technology,root,(none)
+ubee
+ubee,user,user
+Sun Microsystems
+Sun Microsystems,root,changeme
+Mintel
+Mintel,n/a,SYSTEM
+Pyramid Computer
+Pyramid Computer,admin,admin
+Vonage
+Vonage,user,user
+Vonage,admin,admin
+Vonage,(blank),(blank)
+Vonage,router,router
+Vonage,VTech,VTech
+McAfee
+McAfee,scmadmin,scmchangeme
+BinTec
+BinTec,n/a,snmp-Trap
+BinTec,admin,bintec
+Interbase
+Interbase,SYSDBA,masterkey
+Nortel
+Nortel,disttech,4tas
+Nortel,maint,maint
+Nortel,mlusr,mlusr
+Nortel,admin,root
+Nortel,l2,l2
+Nortel,l3,l3
+Nortel,ro,ro
+Nortel,rw,rw
+Nortel,rwa,rwa
+Nortel,admin,setup
+Nortel,n/a,secure
+Nortel,login,0
+Nortel,login,1111
+Nortel,login,8429
+Nortel,spcl,0
+Nortel,service,smile
+Nortel,root,3ep5w2u
+Nortel,(none),0
+Nortel,maint,ntacdmax
+Nortel,ccrusr,ccrusr
+Nortel,n/a,(none)
+Nortel,supervisor,PlsChgMe!
+Nortel,n/a,266344
+Nortel,266344,266344
+Nortel,supervisor,PlsChgMe1
+F5-Networks
+F5-Networks,n/a,(none)
+sharp
+sharp,n/a,(none)
+sitara
+sitara,root,(none)
+Inventel
+Inventel,admin,admin
+Lantronix
+Lantronix,n/a,lantronix
+Lantronix,sysadmin,PASS
+Lantronix,login,access
+Lantronix,n/a,admin
+Lantronix,n/a,access
+Lantronix,n/a,(none)
+Tandberg Data
+Tandberg Data,n/a,0000010023
+Megastar
+Megastar,n/a,star
+Digicorp
+Digicorp,n/a,BRIDGE
+Digicorp,n/a,password
+ZyXEL
+ZyXEL,n/a,1234
+ZyXEL,root,1234
+ZyXEL,(none),1234
+ZyXEL,admin,1234
+ZyXEL,1234,1234
+ZyXEL,webadmin,1234
+ZyXEL,n/a,admin
+ZyXEL,n/a,(none)
+ZyXEL,admin,admin
+ZyXEL,supervisor,supervisor
+X-Micro
+X-Micro,super,super
+X-Micro,1502,1502
+LG
+LG,(none),jannie
+LG,admin,epicrouter
+Atlantis
+Atlantis,admin,atlantis
+RedHat
+RedHat,piranha,q
+RedHat,piranha,piranha
+Juniper
+Juniper,netscreen,netscreen
+Areca
+Areca,admin,0000
+Cayman
+Cayman,n/a,(none)
+Livingston
+Livingston,!root,(none)
+Livingston,root,(none)
+Elsa
+Elsa,n/a,cisco
+Dell
+Dell,admin,password
+Dell,root,calvin
+SpeedXess
+SpeedXess,(none),speedxess
+Teletronics
+Teletronics,admin,1234
+Kyocera
+Kyocera,n/a,PASSWORD
+Kyocera,root,root
+Kyocera,admin,admin
+Kyocera,admin,(blank)
+Network Everywhere
+Network Everywhere,(none),admin
+EchoLife
+EchoLife,admin,admin
+Deutsch Telekomm
+Deutsch Telekomm,(none),0000
+Brocade
+Brocade,root,fivranne
+Brocade,admin,password
+Entrust
+Entrust,websecadm,changeme
+Datawizard.net
+Datawizard.net,anonymous,any@
+Raidzone
+Raidzone,n/a,raidzone
+ZXDSL
+ZXDSL,ZXDSL,ZXDSL
+Billion
+Billion,admin,admin
+Billion,(none),(none)
+Teklogix
+Teklogix,Administrator,(none)
+Proxim
+Proxim,(none),(none)
+Proxim,None,public
+TENDA
+TENDA,admin,admin
+ESP
+ESP,1111,1111
+penril datability
+penril datability,n/a,system
+GVC
+GVC,Administrator,admin
+SpeedStream
+SpeedStream,n/a,adminttd
+SpeedStream,admin,admin
+SpeedStream,(none),admin
+Radware
+Radware,lp,lp
+Radware,radware,radware
+Quintum Technologies Inc.
+Quintum Technologies Inc.,admin,admin
+Cellit
+Cellit,cellit,cellit
+Server Technology
+Server Technology,GEN1,gen1
+Server Technology,GEN2,gen2
+Server Technology,ADMN,admn
+ion
+ion,n/a,admin
+ion,Administrator,admin
+Deutsche Telekom
+Deutsche Telekom,admin,(none)
+Deutsche Telekom,(none),0000
+Deutsche Telekom,None,0000 This is also their standard for the W700 and 
+BMC Software
+BMC Software,Administrator,the same all over
+Mikrotik
+Mikrotik,admin,(none)
+Troy
+Troy,admin,extendnet
+Pentaoffice
+Pentaoffice,(none),pento
+Bay Networks
+Bay Networks,n/a,NetICs
+Bay Networks,security,security
+Bay Networks,User,(none)
+Bay Networks,Manager,(none)
+UNEX
+UNEX,n/a,password
+Sitecom
+Sitecom,(none),sitecom
+Sitecom,admin,admin
+Benq
+Benq,admin,admin
+LUCENT
+LUCENT,super,super
+LUCENT,(any 3 characters),cascade
+LUCENT,n/a,cascade
+LUCENT,admin,Ascend
+LUCENT,root,ascend
+LUCENT,readwrite,lucenttech1
+LUCENT,readonly,lucenttech2
+LUCENT,LUCENT01,UI-PSWD-01
+LUCENT,LUCENT02,UI-PSWD-02
+LUCENT,Administrator,(none)
+LUCENT,admin,AitbISP4eCiG
+LUCENT,bciim,bciimpw
+LUCENT,bcim,bcimpw
+LUCENT,bcms,bcmspw
+LUCENT,bcnas,bcnaspw
+LUCENT,blue,bluepw
+LUCENT,browse,browsepw
+LUCENT,browse,looker
+LUCENT,craft,craft
+LUCENT,craft,craftpw
+LUCENT,cust,custpw
+LUCENT,enquiry,enquirypw
+LUCENT,field,support
+LUCENT,inads,indspw
+LUCENT,inads,inads
+LUCENT,init,initpw
+LUCENT,locate,locatepw
+LUCENT,maint,maintpw
+LUCENT,maint,rwmaint
+LUCENT,nms,nmspw
+LUCENT,rcust,rcustpw
+LUCENT,support,supportpw
+LUCENT,tech,field
+Swissvoice
+Swissvoice,target,password
+Apple
+Apple,(none),public
+Apple,n/a,password
+Apple,n/a,admin
+Apple,root,admin
+Apple,root,alpine
+Mentec
+Mentec,MICRO,RSX
+Zcom
+Zcom,root,admin
+Corecess
+Corecess,Administrator,admin
+Corecess,corecess,corecess
+Corecess,admin,(none)
+Ascend
+Ascend,readonly,lucenttech2
+Ascend,n/a,ascend
+Ascend,root,ascend
+WatchGuard
+WatchGuard,admin,(none)
+WatchGuard,user,pass
+Nexxt Solutions
+Nexxt Solutions,guest,guest
+Amitech
+Amitech,admin,admin
+SIEMENS
+SIEMENS,admin,n/a
+SIEMENS,eng,engineer
+SIEMENS,op,op
+SIEMENS,op,operator
+SIEMENS,su,super
+SIEMENS,poll,tech
+SIEMENS,sysadmin,sysadmin
+SIEMENS,admin,pwp
+SIEMENS,tech,tech
+SIEMENS,superuser,admin
+SIEMENS,admin,hagpolm1
+SIEMENS,n/a,SKY_FOX
+SIEMENS,n/a,(none)
+ADIC
+ADIC,admin,secure
+ADIC,admin,password
+latis network
+latis network,n/a,(none)
+Integral Technologies
+Integral Technologies,Administrator,letmein
+3ware
+3ware,Administrator,3ware
+Wang
+Wang,CSG,SESAME
+Intersystems
+Intersystems,system,sys
+Netstar
+Netstar,admin,password
+Airties
+Airties,(blank),(blank)
+ASMAX
+ASMAX,admin,epicrouter
