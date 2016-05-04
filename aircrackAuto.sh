@@ -32,11 +32,11 @@ echo "Press Enter to begin password cracking"
 read -s
 if [ $encrypt == "WEP" ]
 then
-	aircrack-ng -b $bssid dump*.cap
+	x-terminal-emulator -e "sudo /bin/bash -c './WEPcrack.sh $bssid; exec /bin/bash -i'"
 fi
 if [ $encrypt = "WPA2" ]
 then
-	aircrack-ng -w rockyou.txt -b $bssid dump*.cap
+	x-terminal-emulator -e "sudo /bin/bash -c './WPAcrack.sh $bssid; exec /bin/bash -i'"
 fi
 echo "Press Enter when done"
 read -s
