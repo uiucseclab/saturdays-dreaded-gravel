@@ -16,14 +16,14 @@ This group of scripts uses aircrack to crack the WEP and WPA/WPA2 passwords of a
 ## Instructions - Default Credentials
 - Run the following python scripts in the correct order
     - `python miscPythonScripts/default-pass.py --reload` This script fetches a list of router manufacturers from an online database as well as the default credentials for those manufacturers. The script combines all the information into a simple csv file and saves the result in the csvFiles directory.
-    - ???
-    - Profit
+    - `cd miscPythonScripts && python combineInfo.py` This script combines the default credential information from the previous script with the manufacturer to MAC address mapping csv file. This effectively gives a MAC address to default credential mapping.
+- Next, run the `mainLookup.py` with a MAC address as the argument. This will output any known default credentials for the given MAC address. This is intended to be used to attempt to get easy access to a router once the network password has been cracked.
 
 ## Credits
 - http://www.routerpasswords.com/
 - http://www.aircrack-ng.org/
 
-# Areas for Expansion
+## Areas for Expansion
 - Talk about deauth here
 - Talk about auto form entering here
 
