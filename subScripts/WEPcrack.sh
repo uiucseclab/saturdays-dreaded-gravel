@@ -1,1 +1,1 @@
-sudo aircrack-ng -b $1 dump*.cap
+sudo aircrack-ng -b $1 dumpfiles/dump*.cap
