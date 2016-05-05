@@ -2,11 +2,11 @@ from bs4 import BeautifulSoup
 import urllib
 import urllib2
 import sys
-
-print sys.argv
+import os
 
 creds = {};
-credfile = open('./default-creds.csv', 'r+')
+credfile = open(os.path.join(os.path.dirname(__file__),
+    '../csvFiles/default-creds.csv'), 'w+')
 
 # Print the help text
 if '--help' in sys.argv:
@@ -29,7 +29,7 @@ if '--reload' in sys.argv:
     # Loop through each manufacturer and collect all username/password combinations
     count = 0
     for manufct in creds:
-        credfile.write('%s\n' % manufct)
+        #credfile.write('%s\n' % manufct)
         count += 1;
         print('Scanning %d / %d: %s' % (count, len(creds), manufct) )
 
