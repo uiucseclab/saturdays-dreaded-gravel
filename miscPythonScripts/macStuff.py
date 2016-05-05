@@ -4,7 +4,7 @@ if len(sys.argv) < 2:
 	exit(1)
 manList = []
 macDict = {}
-for line in open('macToManufacturer.csv'):
+for line in open('../csvFiles/macToManufacturer.csv'):
 	pairList = line.strip(' \r\n').split(',')
 	if len(pairList) is not 2:
 		continue
