@@ -24,6 +24,6 @@ This group of scripts uses aircrack to crack the WEP and WPA/WPA2 passwords of a
 - http://www.aircrack-ng.org/
 
 ## Areas for Expansion
-- Talk about deauth here
-- Talk about auto form entering here
+- One idea we had was to cause every user on the network to deauthorize. This would force all users to re-autherize to the network, which would result in a much shorter time required to find the WPA handshake or WEP IVs. In order to force users on the network to deauthorize, we would send dissasociate packets to them. In the end, we decided to not implement this for this project due to legality concerns.
+- Another idea for the future would be automating even more of the router-hacking process. Namely, once a network password has been cracked, automatically try all the default credentials to gain access to the router config page. If the default credentials didn't work, the script could also try exploiting common router vulnerabilities to gain access. We could also automate different processes, such as sitting on a network and monitoring traffic or automatically ARP spoofing.
 
