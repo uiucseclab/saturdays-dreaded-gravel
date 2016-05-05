@@ -1,3 +1,8 @@
+if [ ! -f rockyou.txt ]
+then
+tar xzf rockyou.tar.gz
+fi
+
 # Select Interface
 echo "What interface do you want to monitor?"
 iwconfig 2>/dev/null | grep -o '^[a-z0-9]\+'
