@@ -1,6 +1,9 @@
+# If the wordlist is not present, Download it
 if [ ! -f rockyou.txt ]
 then
-tar xzf rockyou.tar.gz
+echo "Downloading word list (this might take a while). . ."
+wget -q --show-progress "http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2"
+bzip2 -d rockyou.txt.bz2
 fi
 
 # Select Interface
