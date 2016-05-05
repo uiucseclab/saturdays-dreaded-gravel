@@ -13,7 +13,7 @@ iwconfig 2>/dev/null | grep -o '^[a-z0-9]\+'
 read monInterface
 
 # Launch terminal that gets a list of routers on the network
-x-terminal-emulator -e "sudo /bin/bash -c './airodump1.sh $monInterface; exec /bin/bash -i'"
+x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/airodump1.sh $monInterface; exec /bin/bash -i'"
 # Wait 5 seconds so the interface captures a lot of networks
 sleep 5
 # Format CSV
@@ -32,7 +32,7 @@ channel=$(echo $line | cut -d ',' -f 4)
 encrypt=$(echo $line | cut -d ',' -f 6)
 
 # Start Gathering information from the specified router
-x-terminal-emulator -e "sudo /bin/bash -c './airodump2.sh $monInterface $bssid $channel; exec /bin/bash -i'"
+x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/airodump2.sh $monInterface $bssid $channel; exec /bin/bash -i'"
 
 echo "Press Enter to begin password cracking"
 read -s
@@ -40,7 +40,7 @@ read -s
 # Pick exploit that works with encryption method
 if [ $encrypt == "WEP" ]
 then
-	x-terminal-emulator -e "sudo /bin/bash -c './WEPcrack.sh $bssid; exec /bin/bash -i'"
+	x-terminal-emulator -e "sudo /bin/bash -c 'subScripts/WEPcrack.sh $bssid; exec /bin/bash -i'"
 fi
 if [ $encrypt = "WPA2" ]
 then
@@ -50,4 +50,4 @@ echo "Press Enter when done"
 read -s
 
 # Reset monitor interface so the user gets back internet access
-sudo /bin/bash ./reset.sh $monInterface $interface
+sudo /bin/bash subScripts/reset.sh $monInterface $interface
