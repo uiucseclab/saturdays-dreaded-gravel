@@ -3,6 +3,11 @@
 
 This group of scripts uses aircrack to crack the WEP and WPA/WPA2 passwords of a network as well as interprets the MAC address of the router and will output the default login credentials for a user to use in efforts to login to the router.
 
+## Group
+- Adam Goldsher <goldshe2>
+- Jake Leonard <jleonrd2>
+- Andrew Mass <amass2>
+
 ## Requirements
 - `aircrack` suite
 - X-Server
